@@ -175,7 +175,7 @@
           </p>
         </div>
         
-        <h3 class="title is-4">Reconstruction scenes with variant appearance</h3>
+        <h3 class="title is-4">3D semantic field video results on test scenes from the RealEstate10K dataset, using only two sparse-view RGB images as input.</h3>
         <div class="content has-text-centered">
           <video id="replay-video"
                   controls
@@ -183,7 +183,7 @@
                   preload
                   playsinline
                   width="100%">
-            <source src="./static/videos/Visual Effects Showcase Brandenburg.mp4"
+            <source src="./static/videos/1.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -194,7 +194,7 @@
                   preload
                   playsinline
                   width="100%">
-            <source src="./static/videos/Visual Effects Showcase Sacre.mp4"
+            <source src="./static/videos/2.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -205,7 +205,7 @@
                   preload
                   playsinline
                   width="100%">
-            <source src="./static/videos/Visual Effects Showcase Trevi.mp4"
+            <source src="./static/videos/4.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -219,35 +219,13 @@
                   preload
                   playsinline
                   width="100%">
-            <source src="./static/videos/Novel View Compare Brandenburg.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                  controls
-                  muted
-                  preload
-                  playsinline
-                  width="100%">
-            <source src="./static/videos/Novel View Compare Sacre.mp4"
+            <source src="./static/videos/6.mp4"
                     type="video/mp4">
           </video>
         </div>
         
-            <div class="content has-text-centered">
-          <video id="replay-video"
-                  controls
-                  muted
-                  preload
-                  playsinline
-                  width="100%">
-            <source src="./static/videos/Novel View Compare Trevi.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
 
-         <h3 class="title is-4">Appearance tuning</h3>
+         <h3 class="title is-4">Using our model pre-trained on the RealEstate10K dataset, we conducted inference on the LERF dataset scenes, using only two sparse-view RGB images — the first and last frames — as input.</h3>
         <div class="content has-text-centered">
           <video id="replay-video"
                   controls
@@ -255,7 +233,7 @@
                   preload
                   playsinline
                   width="100%">
-            <source src="./static/videos/Appear Tuning Brandenburg.mp4"
+            <source src="./static/videos/11.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -266,7 +244,7 @@
                   preload
                   playsinline
                   width="100%">
-            <source src="./static/videos/Appear Tuning Sacre.mp4"
+            <source src="./static/videos/22.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -278,31 +256,18 @@
                   preload
                   playsinline
                   width="100%">
-            <source src="./static/videos/Appear Tuning Trevi.mp4"
+            <source src="./static/videos/33.mp4"
                     type="video/mp4">
           </video>
         </div>
-        
-          <div class="hero-body">
-          <img src="./static/images/appear tuning.png"/>
-        </div>
-        
-          <div class="content has-text-justified">
-          <p>
-           Images are rendered at the same camera pose with increasing weight of features extracted from the image. 
-            Our method incorporates environmental factors, like highlights on pillars and enhancing illumination, 
-            in a manner that is closer to human understanding.
-          </p>
-        </div>
 
-        <h3 class="title is-4">Visual comparison on test set</h3>
+        <h3 class="title is-4">Visual comparison on LERF and 3D-OVS datasets.</h3>
         <div class="hero-body">
-          <img src="./static/images/qualitative.png"/>
+          <img src="./static/videos/comparison.png"/>
         </div>
         <div class="content has-text-justified">
           <p>
-            Qualitative experimental results on three unconstrained datasets. GS-W recovers finer details of appearance 
-            and reconstructs more detailed geometry.
+            Qualitative comparisons of open-vocabulary 3D object localization on the LERF and 3D-OVS datasets. The top row displays scenes from the LERF dataset, while the bottom row shows scenes from the 3D-OVS dataset. Red points indicate the model predictions, and black dashed bounding boxes denote the annotations.
           </p>
         </div>
         
